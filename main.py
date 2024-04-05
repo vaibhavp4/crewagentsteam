@@ -54,11 +54,11 @@ research_task = Task(
 # Writing task with language model configuration
 write_task = Task(
   description=(
-    "Compose an insightful article on {topic}."
-    "Focus on the latest trends and how it's impacting the industry."
-    "This article should be easy to understand, engaging, and positive."
+    "Compose an insightful summary on {topic}."
+    "Focus on the explaining the key insights related to leveraging technology to driver product experience"
+    "Each insight statement should contain the essence and the facts leveraged to derive the essence"
   ),
-  expected_output='A 4 paragraph article on {topic} advancements formatted as markdown.',
+  expected_output='List of insights on {topic} formatted as markdown.',
   tools=[search_tool],
   agent=writer,
   async_execution=False,
@@ -75,5 +75,5 @@ crew = Crew(
 )
 
 # Starting the task execution process with enhanced feedback
-result = crew.kickoff(inputs={'topic': 'The role of generative AI in education'})
+result = crew.kickoff(inputs={'topic': 'Architectural differences between ML driven and LLM driven personalisation in education technology apps'})
 print(result)

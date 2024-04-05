@@ -1,9 +1,17 @@
-Artificial Intelligence (AI) is revolutionizing the healthcare sector, bringing forth an array of cutting-edge advancements. The most recent trends include medical imaging, surgery, medical research and data analysis, and drug discovery, all powered by AI. These advancements are not only propelling the industry forward but are also reshaping the way healthcare is delivered and received.
+# Architectural Differences between ML and LLM-driven Personalisation in Educational Technology Apps
 
-AI has shown immense potential in the field of medical imaging, aiding in the rapid and accurate detection of conditions from medical images like X-rays, MRIs, and CT scans. In surgery, AI is being used to refine the skills and expertise of medical professionals, leading to improved surgical outcomes. Likewise, AI's role in medical research and data analysis is proving transformative, enabling the analysis of vast amounts of patient data to predict disease outbreaks or make diagnoses.
+## ML-driven Personalisation:
+1. **Data Analysis and Learner Modelling:** ML-driven personalisation involves the sophisticated analysis of learner data to build comprehensive learner models. This process involves stages of data acquisition, preprocessing, model training, validation, and deployment.
+2. **Personalised Teaching Materials and Experiences:** The analysed data is then used to curate personalised teaching materials and experiences tailored to the needs and preferences of the learner. 
 
-Moreover, AI is making a significant impact in drug discovery. By directing the latest advances in AI, the drug discovery process is being streamlined, leading to the development of more effective treatments in a shorter span of time. This, in turn, is improving patient care and outcomes. Furthermore, AI is being leveraged in scientific discovery, advancing our understanding of disease states and potential treatment pathways.
+## LLM-driven Personalisation:
+1. **Natural Language Understanding and Generation:** LLMs are designed to excel in understanding and generating natural language. They are capable of comprehending human language text and generating contextually relevant content.
+2. **Learner History Analysis for Personalised Content:** LLMs analyse users' learning histories, preferences, and performance to curate personalised content. This method stands out in its ability to generate content that is almost human-like.
+3. **Unique Architecture:** The architecture for LLM applications includes tools for data acquisition, preprocessing, and training but places a significant emphasis on language generation and context understanding.
 
-The impact of AI in healthcare is widespread and profound. It is improving access to care, particularly for those in rural or underserved areas. It is also increasing the efficiency of care delivery and aiding in the diagnosis of chronic illnesses. AI's ability to understand the day-to-day patterns and needs of patients is enhancing personalized care, leading to a more effective and efficient healthcare system.
+## Key Differences:
+1. **Processing and Leveraging Data:** A fundamental difference between ML and LLMs lies in how they process and leverage data. While ML algorithms focus primarily on analysing and modeling data to build learner models, LLMs shine in understanding and generating natural language content.
+2. **Personalisation Approach:** ML-driven personalisation curates learning experiences based on learner models, while LLM-driven personalisation uses language understanding to provide personalised content that closely mimics human interaction.
+3. **Architecture:** The architectural differences reflect their unique approaches to personalisation. ML applications have a structured pipeline of data acquisition, preprocessing, model training, validation, and deployment. In contrast, LLM applications place a significant focus on language generation and context understanding.
 
-In conclusion, AI in healthcare presents promising advancements and carries the potential to revolutionize patient care, diagnosis, treatment, and management. However, it is crucial to address potential risks and challenges, including data privacy and security concerns. With proper regulation and ethical considerations, the future of healthcare with AI looks promising and exciting.
+In conclusion, both ML and LLM-driven personalisation offer unique benefits to educational technology apps, and the choice between the two would largely depend on the specific personalisation requirements of the application.
